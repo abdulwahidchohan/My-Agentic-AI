@@ -1,0 +1,9 @@
+[features]
+chat_persistence = true
+# file_upload = true # Uncomment to enable file uploads in the UI
+
+[ui]
+name = "Super Agentic AI"
+theme = "dark" # Or "light"
+show_logs = true
+chain_of_thought = true # Visualize agent steps and tool calls in Chainlit UI 
